@@ -1,0 +1,7 @@
+C:\Users\tim\source\repos\ConsoleAppCal\ConsoleAppCal\bin\Debug\ConsoleAppCal.exe.config
+C:\Users\tim\source\repos\ConsoleAppCal\ConsoleAppCal\bin\Debug\ConsoleAppCal.exe
+C:\Users\tim\source\repos\ConsoleAppCal\ConsoleAppCal\bin\Debug\ConsoleAppCal.pdb
+C:\Users\tim\source\repos\ConsoleAppCal\ConsoleAppCal\obj\Debug\ConsoleAppCal.csprojResolveAssemblyReference.cache
+C:\Users\tim\source\repos\ConsoleAppCal\ConsoleAppCal\obj\Debug\ConsoleAppCal.csproj.CoreCompileInputs.cache
+C:\Users\tim\source\repos\ConsoleAppCal\ConsoleAppCal\obj\Debug\ConsoleAppCal.exe
+C:\Users\tim\source\repos\ConsoleAppCal\ConsoleAppCal\obj\Debug\ConsoleAppCal.pdb
