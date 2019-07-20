@@ -47,8 +47,6 @@ namespace ConsoleAppCal
     {
         void Log(string message);
 
-
-
     }
     public class scheduler : calendar
     {
@@ -67,8 +65,8 @@ namespace ConsoleAppCal
 
         public void checkSchedule(int day1, int day2)
         {
-            Console.WriteLine("-_-_-_-");
-         if ((day1 >= day2) && (day1 % 5 != 0))
+            //Console.WriteLine("-_-_-_-");
+            if ((day1 >= day2) && (day1 % 5 != 0))
                     {
                         Console.WriteLine("Final DAY:" + day1);
                     }
@@ -88,11 +86,14 @@ namespace ConsoleAppCal
                 Console.WriteLine("Currernt day:" + day1);
                 day1++;
                 checkSchedule(day1, day2);
-            }
+            }            
 
-           
-            
+        }
 
+
+        public int adder(int int1, int int2)
+        {
+            return int1 + int2;
         }
     }
 }
