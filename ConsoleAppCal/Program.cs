@@ -40,6 +40,10 @@ namespace ConsoleAppCal
             scheduler newsched = new scheduler();
 
             newsched.checkSchedule(1, 5);
+
+
+            Console.WriteLine("hello, you may type anything to continue");
+            string name = Console.ReadLine();
         }
     }
 
@@ -50,10 +54,25 @@ namespace ConsoleAppCal
     }
     public class scheduler : calendar
     {
-        DateTime startdate = 
+        // DateTime date1 = new DateTime(2015, 12, 25);
+
+        //DateTime date2 = new DateTime(2015, 12, 29);
+
+       static  DateTime date1 = DateTime.Now;
+        DateTime date2 = date1.AddDays(30);
+
+        /*
+         * TEST PRINT FOR DATETIME
+         * 
+         * Console.WriteLine(date1.ToString());
+         * 
+         */
         int start = 1;
 
         int end = 5;
+
+
+
         public void Log(string message)
         {
             Console.WriteLine(message);
