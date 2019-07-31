@@ -50,7 +50,7 @@ namespace ConsoleAppCal
     }
     public class scheduler : calendar
     {
-
+        DateTime startdate = 
         int start = 1;
 
         int end = 5;
