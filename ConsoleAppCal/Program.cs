@@ -41,6 +41,14 @@ namespace ConsoleAppCal
 
             newsched.checkSchedule(1, 5);
 
+            DateTime date1 = DateTime.Now;
+            DateTime date2 = date1.AddDays(30);
+
+
+            Console.WriteLine(date1);
+
+            Console.WriteLine(date2);
+
 
             Console.WriteLine("hello, you may type anything to continue");
             string name = Console.ReadLine();
@@ -58,8 +66,7 @@ namespace ConsoleAppCal
 
         //DateTime date2 = new DateTime(2015, 12, 29);
 
-       static  DateTime date1 = DateTime.Now;
-        DateTime date2 = date1.AddDays(30);
+
 
         /*
          * TEST PRINT FOR DATETIME
